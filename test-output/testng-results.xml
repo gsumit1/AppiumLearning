@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11782" started-at="2021-12-06T10:58:13 IST" finished-at="2021-12-06T10:58:25 IST">
+  <suite name="Default suite" duration-ms="23875" started-at="2021-12-07T22:43:35 IST" finished-at="2021-12-07T22:43:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11782" started-at="2021-12-06T10:58:13 IST" finished-at="2021-12-06T10:58:25 IST">
-      <class name="com.appium.setup.ByClassDemo">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.appium.setup.ByClassDemo@307f6b8c]" name="test1" duration-ms="11706" started-at="2021-12-06T10:58:13 IST" finished-at="2021-12-06T10:58:25 IST">
+    <test name="Default test" duration-ms="23875" started-at="2021-12-07T22:43:35 IST" finished-at="2021-12-07T22:43:59 IST">
+      <class name="AppiumLockUnlock.LockUnlock">
+        <test-method status="PASS" signature="test1()[pri:0, instance:AppiumLockUnlock.LockUnlock@307f6b8c]" name="test1" duration-ms="23815" started-at="2021-12-07T22:43:36 IST" finished-at="2021-12-07T22:43:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- com.appium.setup.ByClassDemo -->
+      </class> <!-- AppiumLockUnlock.LockUnlock -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

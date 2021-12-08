@@ -28,11 +28,11 @@ public class Setup {
 		
 		caps.setCapability("newCommandTimeout", 360);
 		
-		caps.setCapability(MobileCapabilityType.APP, "/Users/riyaanghosh/Downloads/ApiDemos-debug.apk");
+		//caps.setCapability(MobileCapabilityType.APP, "/Users/riyaanghosh/Downloads/ApiDemos-debug.apk");
 		
 		
-		//caps.setCapability("appPackage", "io.appium.android.apis");
-		//caps.setCapability("appActivity", "io.appium.android.apis.accessibility.CustomViewAccessibilityActivity");
+		caps.setCapability("appPackage", "io.appium.android.apis");
+		caps.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
 		
 		
 		URL url=new URL("http://0.0.0.0:4723/wd/hub");
