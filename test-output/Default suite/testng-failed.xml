@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AppiumLockUnlock.LockUnlock">
+      <class name="com.appium.setup.Setup">
         <methods>
           <include name="test1"/>
         </methods>
-      </class> <!-- AppiumLockUnlock.LockUnlock -->
+      </class> <!-- com.appium.setup.Setup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

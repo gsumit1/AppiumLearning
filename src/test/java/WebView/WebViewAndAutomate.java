@@ -26,8 +26,8 @@ public class WebViewAndAutomate {
 		caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 		caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
 		caps.setCapability(MobileCapabilityType.APP, "/Users/riyaanghosh/Downloads/ApiDemos-debug.apk");
-		caps.setCapability("unlockType", "pattern");
-		caps.setCapability("unlockKey", "12369");
+		//caps.setCapability("unlockType", "pattern");
+		//caps.setCapability("unlockKey", "12369");
 		
 		URL url = new URL("http://0.0.0.0:4723/wd/hub");
 		AppiumDriver driver = new AndroidDriver(url, caps);
@@ -49,16 +49,22 @@ public class WebViewAndAutomate {
         driver.findElement(MobileBy.AccessibilityId("WebView")).click();
 
         Set<String> contextHandles = driver.getContextHandles();
+        
+        
         for(String contextHandle : contextHandles){
             System.out.println(contextHandle);
         }
 
-   //     driver.context("WEBVIEW");
+    
         driver.context(contextHandles.toArray()[1].toString());
+        
+        
+        
+        
         System.out.println(driver.findElement(By.cssSelector("body > h1")).getText());
-        System.out.println(driver.findElement(By.xpath("//*[@id=\"i_am_a_textbox\"]")).getText());
+        //System.out.println(driver.findElement(By.xpath("//*[@id=\"i_am_a_textbox\"]")).getText());
 
-        driver.context("NATIVE_APP");
+        driver.context(contextHandles.toArray()[0].toString());
     }
 }
 

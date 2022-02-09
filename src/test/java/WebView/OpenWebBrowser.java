@@ -16,6 +16,8 @@ public class OpenWebBrowser {
 			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_4");
 			caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 			caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
+			
+			
 			caps.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 			
 			URL url = new URL("http://0.0.0.0:4723/wd/hub");
@@ -24,6 +26,10 @@ public class OpenWebBrowser {
 			
 			
 			driver.get("https://tesla.com");
+			
+			
+			
+			
 			
 	 }
 
