@@ -28,10 +28,10 @@ public class ChromeDriverSettings {
 			caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 			caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
 			caps.setCapability(MobileCapabilityType.APP, "/Users/riyaanghosh/Downloads/ApiDemos-debug.apk");
-			caps.setCapability("unlockType", "pattern");
-			caps.setCapability("unlockKey", "12369");
+			//caps.setCapability("unlockType", "pattern");
+			//caps.setCapability("unlockKey", "12369");
 			
-			caps.setCapability("chromedriverExecutable", "path");
+			//caps.setCapability("chromedriverExecutable", "path");
 			
 			
 			URL url = new URL("http://0.0.0.0:4723/wd/hub");

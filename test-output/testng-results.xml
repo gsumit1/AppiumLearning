@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11581" started-at="2022-02-08T22:45:12 IST" finished-at="2022-02-08T22:45:23 IST">
+  <suite name="Default suite" duration-ms="33023" started-at="2022-02-09T23:11:51 IST" finished-at="2022-02-09T23:12:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11581" started-at="2022-02-08T22:45:12 IST" finished-at="2022-02-08T22:45:23 IST">
-      <class name="com.appium.setup.Setup">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.appium.setup.Setup@307f6b8c]" name="test1" duration-ms="11533" started-at="2022-02-08T22:45:12 IST" finished-at="2022-02-08T22:45:23 IST">
+    <test name="Default test" duration-ms="33023" started-at="2022-02-09T23:11:51 IST" finished-at="2022-02-09T23:12:25 IST">
+      <class name="AppiumCommandsDemo.AppiumCommnadsDemo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:AppiumCommandsDemo.AppiumCommnadsDemo@3234e239]" name="test1" duration-ms="32957" started-at="2022-02-09T23:11:52 IST" finished-at="2022-02-09T23:12:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- com.appium.setup.Setup -->
+      </class> <!-- AppiumCommandsDemo.AppiumCommnadsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

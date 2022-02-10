@@ -35,24 +35,29 @@ public class AppiumCommnadsDemo {
 		
 		Thread.sleep(5000);
 		
-		//driver.runAppInBackground(Duration.ofMillis(5000));
-		//System.out.println(driver.queryAppState("io.appium.android.apis"));
+		driver.runAppInBackground(Duration.ofMillis(5000));
+		System.out.println(driver.queryAppState("io.appium.android.apis"));
+		
 		//driver.terminateApp("io.appium.android.apis");
 		
 		//Thread.sleep(5000);
 		//System.out.println(driver.queryAppState("io.appium.android.apis"));
 		
 		
-		//driver.installApp("/Users/riyaanghosh/Downloads/ApiDemos-debug.apk", new AndroidInstallApplicationOptions().withReplaceEnabled());
+		driver.installApp("/Users/riyaanghosh/Downloads/ApiDemos-debug.apk", new AndroidInstallApplicationOptions().withReplaceEnabled());
 		
 		driver.terminateApp("io.appium.android.apis");
 		
 		Thread.sleep(5000);
 		
 		driver.activateApp("com.android.chrome");
+		
+		System.out.println(driver.queryAppState("io.appium.android.apis"));
 	
 		Thread.sleep(5000);
 		driver.activateApp("io.appium.android.apis");
+		
+		System.out.println(driver.queryAppState("io.appium.android.apis"));
 		
 	}
 }
