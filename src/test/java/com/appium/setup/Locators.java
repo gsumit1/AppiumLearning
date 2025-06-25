@@ -50,5 +50,24 @@ public class Locators {
 		System.out.println(myElement5.getText());
 	
 	}
-
 }
+
+/*
+
+**MobileElement** and **WebElement** are both used in Appium for interacting with elements in mobile applications, but they have some differences:
+
+1. **MobileElement**:
+   - **Specialization**: It is a subclass of `WebElement` specifically designed for mobile applications.
+   - **Additional Methods**: Provides additional methods tailored for mobile interactions, such as gestures (tap, swipe, etc.).
+   - **Platform-Specific**: Used in conjunction with `AppiumDriver` for mobile-specific actions and capabilities.
+
+2. **WebElement**:
+   - **General Use**: It is a standard interface in Selenium WebDriver used for interacting with web elements.
+   - **Limited Methods**: Does not include mobile-specific methods; primarily used for web automation.
+   - **Cross-Platform**: Can be used for both web and mobile automation, but lacks the specialized methods of `MobileElement`.
+
+In summary, **MobileElement** extends the functionality of **WebElement** to include mobile-specific actions, making it more suitable for mobile automation tasks [1](https://stackoverflow.com/questions/35286135/difference-between-appiumdrivermobileelement-and-androiddriver) [2](https://www.testingdocs.com/changes-in-drivers-and-classes/). 
+
+Would you like to know more about how to use these elements in your tests?
+
+*/
