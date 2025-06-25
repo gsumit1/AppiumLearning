@@ -70,4 +70,28 @@ In summary, **MobileElement** extends the functionality of **WebElement** to inc
 
 Would you like to know more about how to use these elements in your tests?
 
+The methods `findElementsById` and `findElementById` in Appium serve different purposes and have distinct behaviors:
+
+1. **`findElementById`**:
+   - **Returns a Single Element**: This method returns the first `MobileElement` that matches the specified ID.
+   - **Usage**: Suitable when you expect only one element to match the locator.
+   - **Example**:
+     ```java
+     MobileElement element = (MobileElement) driver.findElementById("element_id");
+     ```
+
+2. **`findElementsById`**:
+   - **Returns a List of Elements**: This method returns a list of `MobileElement` objects that match the specified ID.
+   - **Usage**: Useful when you expect multiple elements to match the locator.
+   - **Example**:
+     ```java
+     List<MobileElement> elements = (List<MobileElement>) driver.findElementsById("element_id");
+     ```
+
+### Key Differences
+- **Return Type**: `findElementById` returns a single `MobileElement`, while `findElementsById` returns a list of `MobileElement` objects.
+- **Use Case**: Use `findElementById` for a single element and `findElementsById` for multiple elements.
+
+Would you like more details or examples on how to use these methods?
+
 */
