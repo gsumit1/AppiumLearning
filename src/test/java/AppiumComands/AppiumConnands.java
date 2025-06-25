@@ -52,3 +52,26 @@ public class AppiumConnands {
 
 	}
 }
+
+/*
+
+Here are some common Appium commands related to app management:
+1. Install and Uninstall Apps:
+    * driver.installApp("path/to/app.apk"): Installs the specified app on the device.
+    * driver.removeApp("io.appium.android.apis"): Uninstalls the specified app from the device.
+2. Check App Installation:
+    * driver.isAppInstalled("io.appium.android.apis"): Checks if the specified app is installed on the device.
+3. Launch and Close Apps:
+    * driver.launchApp(): Launches the app specified in the desired capabilities.
+    * driver.closeApp(): Closes the currently running app.
+4. Background and Foreground Apps:
+    * driver.runAppInBackground(Duration.ofSeconds(5)): Sends the app to the background for the specified duration.
+    * driver.activateApp("io.appium.android.apis"): Brings the specified app to the foreground.
+5. Query App State:
+    * driver.queryAppState("io.appium.android.apis"): Queries the current state of the specified app.
+6. Terminate Apps:
+    * driver.terminateApp("io.appium.android.apis"): Terminates the specified app.
+These commands help manage the lifecycle and state of mobile applications during testing [1] [2].
+Would you like more details or examples on any of these commands?
+
+*/
